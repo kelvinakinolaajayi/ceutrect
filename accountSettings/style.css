@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  h1 {
+    color: #0B3954;
+  }
+  
+  h2 {
+    color: #0B3954;
+  }
+
+  h4 {
+    color: #0B3954;
+  }
+
+  p {
+    color: #0B3954; 
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .nav-images {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .left {
+    margin-top: 3rem;
+    width: 10%;
+    height: 90vh;
+    border-right: solid 1px #e0e1e1;
+    position: fixed;
+  }
+  
+  .left ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+
+  .left a {
+    text-decoration: none;
+    color: #0B3954;
+  }
+  
+  .left li {
+    padding: 10px;
+    text-align: center;
+    height: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .center {
+    width: 75vw;
+    background-color: white;
+    height: 100vh;
+    padding-left: 150px;
+  }
+
+  .center p {
+    color: #0B3954;
+  }
+
+  .center-contents {
+    margin-left: 5rem;
+  }
+
+  .dashboardQuickStats {
+    display: flex;
+    align-items: center;
+    background-color: white;
+    height: 200px;
+    width: 100%;
+    border: 0.5px solid #0B3954;
+    border-radius: 20px;
+    color: white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .dashboardPersonalInfo {
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 425px;
+    width: 100%;
+    border: 0.5px solid #0B3954;
+    border-radius: 20px;
+    color: white;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .PersonalInfoHeader {
+    display: flex;
+    align-items: center;
+  }
+
+.PersonalInfoDetails {
+  margin-top: 10px;
+  display: flex;
+  width: 50%;
+}
+
+.PersonalDetails1 {
+  width: 50%;
+}
+
+.PersonalDetails2 {
+  width: 50%;
+}
+
+.PersonalDetailsHeading {
+  color: #3e5c6d;
+  font-weight: 600;
+}
+
+.PersonalDetailsText {
+  color: #0B3954;
+}
+
+.dashboardAddressInfo {
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  height: 325px;
+  width: 100%;
+  border: 0.5px solid #0B3954;
+  border-radius: 20px;
+  color: white;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.profile-pic {
+  border: 0px solid;
+  border-radius: 75px;
+  height: 125px;
+  height: 125px;
+  margin-right: 15px;
+  }
+
+.profile-intro h2 {
+  color: #0B3954;
+  margin-bottom: -5px;
+}
+
+.profile-intro p {
+  color: #3e5c6d;
+  margin-bottom: 0px;
+}
+
+.edit-button {
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-left: auto;
+  padding: 2.5px 0px;
+  border: 0.5px solid #0B3954;
+  height: 50px;
+  width: 100px;
+  text-align: center;
+  border-radius: 40px;
+}
+
+.edit-button:hover {
+  background-color: #E5ECF0;
+  transition: all 0.2s ease-in-out;
+}
+
+.edit-button p {
+  color: #3e5c6d;
+}
+
+.edit-button-image {
+  margin-left: 5px;
+  height: 25px;
+  width: 25px;
+}
+
+button {
+  appearance: none;
+  -webkit-appearance: none; /* for Safari */
+  border: none;
+  background-color: transparent;
+  /* add additional styles as needed */
+  font-size: 1rem;
+  color: #3e5c6d;
+}
+
+  .quickStatsBlockOne {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+  
+  .quickStatsBlockTwo {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+
+  .quickStatsBlockThree {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+
+  .quickStatsBlockFour {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+
+  .quickStatsBlockFive {
+    margin: 0 0px 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+  }

@@ -1,0 +1,156 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  h1 {
+    color: #0B3954;
+  }
+  
+  h2 {
+    color: white;
+  }
+
+  h4 {
+    color: #0B3954;
+  }
+
+  p {
+    color: #0B3954; 
+  }
+
+  .appContainer {
+    display: flex;
+  }
+
+  .nav-images {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .left {
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 10%;
+    height: 90vh;
+    border-right: solid 1px #e0e1e1;
+  }
+  
+  .left ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+
+  .left a {
+    text-decoration: none;
+    color: #0B3954;
+  }
+  
+  .left li {
+    padding: 10px;
+    text-align: center;
+    height: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .center {
+    width: 70%;
+    background-color: white;
+    height: 100vh;
+  }
+
+  .center p {
+    color: white;
+  }
+
+  .center-contents {
+    margin-left: 5rem;
+  }
+
+  .dashboardQuickStats {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0B3954;
+    height: 200px;
+    width: 95%;
+    border-radius: 20px;
+    color: white;
+    padding-left: 1rem;
+  }
+
+  .quickStatsBlockOne {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+  
+  .quickStatsBlockTwo {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+
+  .quickStatsBlockThree {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+
+  .quickStatsBlockFour {
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+    border-right: solid 1px white;
+  }
+
+  .quickStatsBlockFive {
+    margin: 0 0px 0 auto;
+    /* background-color: red; */
+    height: 80%;
+    width: 150px;
+
+  }
+
+  .right {
+    width: 20%;
+    background-color: #BFD7EA;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .calendarSection {
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    height: 150px;
+  }
+
+  .UpcomingDates {
+    align-items: center;
+    justify-content: center;
+    background-color: #0B3954;
+    height: 65%;
+    width: 50px;
+    border: 0px solid transparent;
+    border-radius: 15px;
+    margin-right: 20px;
+  }
+
+  .UpcomingDates p {
+    color: white;
+  }

@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  h1 {
+    color: #0B3954;
+  }
+  
+  h2 {
+    color: #0B3954;
+  }
+
+  h4 {
+    color: #0B3954;
+  }
+
+  .container {
+    display: flex;
+  }
+
+  .nav-images {
+    height: 30px;
+    width: 30px;
+  }
+  
+  .left {
+    margin-top: 3rem;
+    width: 10%;
+    height: 90vh;
+    border-right: solid 1px #e0e1e1;
+    position: fixed;
+  }
+  
+  .left ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: space-evenly;
+    text-decoration: none;
+  }
+
+  .left a {
+    text-decoration: none;
+    color: #0B3954;
+  }
+  
+  .left li {
+    padding: 10px;
+    text-align: center;
+    height: 5rem;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .center {
+    width: 75vw;
+    background-color: white;
+    height: 100vh;
+    padding-left: 150px;
+  }
+
+  .center-contents {
+    margin-left: 5rem;
+  }
+
+  .cellReportOverview {
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    height: 300px;
+    width: 100%;
+    border: 0.5px solid #0B3954;
+    border-radius: 20px;
+  }
+
+  .cellOverview0, .cellOverview1, .cellOverview2 {
+    display: flex;
+    height: 200px;
+    width: 200px;
+    background-color: #0B3954;
+    border-radius: 15px;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .cellOverview0 h2, h3 {
+    color: white;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .cellOverview1 h2, h3 {
+    color: white;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .cellOverview2 h2, h3 {
+    color: white;
+    align-items: center;
+    margin-bottom: 0px;
+  }
+
+  .number-properties {
+    color: white;
+    font-weight: 500;
+  }
